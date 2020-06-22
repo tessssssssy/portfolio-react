@@ -1,0 +1,42 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px;
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 350px;
+        text-align: center;
+        input {
+            margin: 10px 0px;
+            font-size: 14pt;
+            width: 100%;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 10px;
+            color: #E00073;
+            background-color: white;
+            border: 2px solid #E00073;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 12pt;
+            transition: 0.5s;
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: #E00073;
+            color: white;
+        }
+        textarea {
+            font-size: 12pt;
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    }
+}
+

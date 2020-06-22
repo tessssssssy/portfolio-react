@@ -1,0 +1,19 @@
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(26, 5, 32, 1.0);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: #7774d1;
+        margin: 0px 50px;
+        transition: 0.5s;
+        font-size: 24pt;
+    }
+    a:hover {
+        color: white;
+    }
+}
