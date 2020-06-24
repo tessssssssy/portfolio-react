@@ -1,0 +1,8 @@
+.BoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color:  rgba(26, 5, 32, 1.0);
+  }

@@ -5,7 +5,7 @@ class Project extends Component {
     render() {
         return (
             <div class="Project" id="terminal-app">
-                <h3>Activity Tracker</h3>
+                <h3>{this.props.name}</h3>
                 <div class="project-content">
                 <div class="slide-container">
                     <span id="slider-image-1"></span>
@@ -23,12 +23,10 @@ class Project extends Component {
                 </div>
             </div>
             <p>
-              A command line based fitness app written in Ruby. The activity tracker allows users to track exercise progress
-              by recording activities including running, cycling, swimming, walking and hiking. Users can record the time and 
-              distance of each workout and use the app to calculate their monthly and overall totals for each exercise type.
+              {this.props.description}
             </p>
           </div>
-          <a class="github" href="https://github.com/tessssssssy/terminal-app" target="_blank">Github</a>
+          <a class="github" href={this.props.github} target="_blank">Github</a>
         </div>
         )
     }

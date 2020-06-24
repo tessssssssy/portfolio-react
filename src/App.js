@@ -7,11 +7,12 @@ import About from './About.js';
 import Contact from './Contact.js';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
+import BoxContainer from './BoxContainer.js';
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
+     <Landing />
      <Navbar/>
      <ProjectContainer/>
      <About/>

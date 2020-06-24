@@ -1,7 +1,7 @@
 .landing {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(26, 5, 32, 1.0);
+    // background-color: rgba(26, 5, 32, 1.0);
     background-size: 100vw;
     display: flex;
     justify-content: center;
@@ -11,7 +11,11 @@
         width: 80%;
         display: flex;
         flex-direction: column;
+        
         align-items: center;
+        position: absolute;
+        padding-top: 20px;
+        // background-color: rgba(26, 5, 32, 1.0);
         .heading-container {
             width: 90%;
             padding: 20px;
@@ -40,16 +44,20 @@
         }
    
         h3 {
-           color: #E00073;
-           font-size: 20pt;
+           color: white;
+           font-size: 24pt;
            text-transform: uppercase;
            font-family: 'Roboto', sans-serif;
            font-weight: 300;
            letter-spacing: 1px;
            text-align: center;
            margin-top: 0px;
+           position: relative;
+           top: 20px;
+           
    
         }
     }
     
 }
+
