@@ -8,7 +8,7 @@ nav {
     background-color: rgba(26, 5, 32, 1.0);
     min-height: 50px;
     .nav-links-container {
-        a {
+        .nav-link {
             text-decoration: none; 
             color: white;
             padding: 20px 50px;
@@ -33,10 +33,10 @@ nav {
         justify-content: space-between;
         align-items: flex-start;
         .nav-links-container {
-            display: block;
+            display: block;           
             .nav-link {
                 padding: 2px 10px;
-                display: none;
+                display: block;
             }
         }    
         #hamburger {

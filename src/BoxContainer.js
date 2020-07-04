@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Box from "./Box";
-import "./BoxContainer.css";
+import "./BoxContainer.scss";
 
 class BoxContainer extends Component {
   static defaultProps = {

@@ -18,8 +18,9 @@
             margin: 0px 50px;
             font-family: 'Roboto', sans-serif;
             font-weight: 300;
-            i {
-                font-size: 48pt;
+            
+            .icon {
+                font-size: 32pt;
                 color: #00FFBF;
             }
             img {
@@ -40,6 +41,7 @@
             width: 300px;
             font-size: 14pt;
             line-height: 2rem;
+            text-align: left;
         }
     }
 
