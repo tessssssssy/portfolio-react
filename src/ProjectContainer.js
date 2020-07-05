@@ -28,7 +28,7 @@ class ProjectContainer extends Component {
             {
                 name: 'Topics Board',
                 images: [topics1, topics2, topics3],
-                description: "A two way marketplace application for a peer to peer bike share service, developed in Ruby on Rails",
+                description: "A class help topic suggestion board, developed in Ruby on Rails",
                 github: "https://github.com/tessssssssy/topics-board",
                 website: null
             },

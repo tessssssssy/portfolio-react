@@ -37,8 +37,12 @@ class About extends Component {
           <p>Javascript</p>
         </div>
         <div class="skill">
-          <img src="https://img.favpng.com/8/6/17/node-js-logo-javascript-chrome-v8-web-application-png-favpng-9Q9AKZGAsr46ppYUg1ZKuT9M0.jpg"alt="ruby logo"/>
+          <img src="https://w7.pngwing.com/pngs/681/453/png-transparent-node-js-javascript-computer-icons-computer-software-github-angle-text-logo.png"alt="ruby logo"/>
           <p>Node js</p>
+        </div>
+        <div class="skill">
+          <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png"alt="react logo"/>
+          <p>React</p>
         </div>
         <div class="skill">
           <img src="https://img.icons8.com/ios/50/000000/ruby-programming-language.png"alt="ruby logo"/>
@@ -49,9 +53,10 @@ class About extends Component {
           <p>Rails</p>
         </div>
         <div class="skill">
-          <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png"alt="react logo"/>
-          <p>React</p>
+          <img src="https://git-scm.com/images/logos/1color-lightbg@2x.png"alt="git logo"/>
+          <p>Git</p>
         </div>
+        
       </div>
       </div>
         )

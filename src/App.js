@@ -8,15 +8,17 @@ import Contact from './Contact.js';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 import BoxContainer from './BoxContainer.js';
+import { Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="App">
-     <Landing />
+     <Landing/>
      <Navbar/>
-     <ProjectContainer/>
-     <About/>
-     <Contact/>
+     <Route exact path="/" component={ProjectContainer} />
+     <Route exact path="/about" component={About} />
+     <Route exact path="/contact" component={Contact} />
      <Footer/>
     </div>
   );

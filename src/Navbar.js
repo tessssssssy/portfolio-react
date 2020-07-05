@@ -22,10 +22,9 @@ class Navbar extends Component {
         return (
         <nav>
         <div className="nav-links-container" style={{display: !this.state.dropDown ? "flex" : "block"}}>
-          <Link  to="/" className="nav-link">About</Link>
-          <a href="./index.html#portfolio" class="nav-link">Portfolio</a>
-          <a href="./contact.html" class="nav-link">Contact</a>
-          <a href="./blog.html" class="nav-link">Blog</a>
+          <Link  to="/about" className="nav-link">About</Link>
+          <Link to="/" className="nav-link">Portfolio</Link>
+          <Link to="/contact" class="nav-link">Contact</Link>
           <a href="https://github.com/tessssssssy" class="nav-link" target="_blank">Github</a>
         </div>
         <Hamburger showMenu={this.handleClick}/>
