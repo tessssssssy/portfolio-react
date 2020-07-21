@@ -44,8 +44,8 @@ class Project extends Component {
               
             </p>
           </div>
-          <a class="github" href={this.props.github} target="_blank">Github</a>
-          { this.props.website ? <a className="website" href={this.props.website} target="_blank">Website</a> : null }
+          <a className="github" href={this.props.github} target="_blank">Github</a>
+          { this.props.website ? <a className="github" href={this.props.website} target="_blank">Website</a> : null }
           </div>
         )
     }
