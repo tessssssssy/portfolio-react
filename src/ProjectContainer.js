@@ -43,7 +43,7 @@ class ProjectContainer extends Component {
     }
     render() {
         return (
-            <div className="ProjectContainer">
+            <div id="#portfolio" className="ProjectContainer">
                 <h3>Portfolio</h3>
                 {this.props.projects.map(project => <Project name={project.name} images={project.images} description={project.description} github={project.github} website={project.website}/>)}
             </div>
