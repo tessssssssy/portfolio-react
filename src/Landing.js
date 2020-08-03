@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './Landing.scss';
 import BoxContainer from "./BoxContainer.js";
 import { Link } from 'react-router-dom';
-import * as Scroll from 'react-scroll';
-import { scroll } from 'react-scroll'
+
 
 class Landing extends Component {
     handleClick = (ref) =>

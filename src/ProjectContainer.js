@@ -15,9 +15,20 @@ import topics1 from './assets/images/topics-1.png';
 import topics2 from './assets/images/topics-2.png';
 import topics3 from './assets/images/topics-3.png';
 
+import hiddenGems1 from './assets/images/hidden_gems1.png';
+import hiddenGems2 from './assets/images/hidden_gems2.png';
+import hiddenGems3 from './assets/images/hidden_gems3.png';
+
 class ProjectContainer extends Component {
     static defaultProps = {
         projects: [
+            {
+                name: 'Hidden Gems',
+                images: [hiddenGems1, hiddenGems2, hiddenGems3],
+                description: "An travel app where users can search for and share unique and interesting places to explore",
+                github: "https://github.com/tessssssssy/hidden-gems-client",
+                website: "https://hiddengems.netlify.app"
+            },
             {
                 name: 'Bike Finder',
                 images: [bikeFinder1, bikeFinder2, bikeFinder3, bikeFinder4],
