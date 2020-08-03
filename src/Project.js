@@ -29,15 +29,15 @@ class Project extends Component {
             <Carousel className="project-carousel">
                 <div>
                     <img src={this.props.images[0]} />
-                    <p className="legend">{this.props.description}</p>
+                    <p className="legend">{this.props.description[0]}</p>
                 </div>
                 <div>
                     <img src={this.props.images[1]} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend">{this.props.description[1]}</p>
                 </div>
                 <div>
                     <img src={this.props.images[2]} />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">{this.props.description[2]}</p>
                 </div>
             </Carousel>
             <p>

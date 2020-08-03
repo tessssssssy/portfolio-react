@@ -25,28 +25,28 @@ class ProjectContainer extends Component {
             {
                 name: 'Hidden Gems',
                 images: [hiddenGems1, hiddenGems2, hiddenGems3],
-                description: "An travel app where users can search for and share unique and interesting places to explore",
+                description: ["A travel app where users can search for and share unique and interesting places to explore"],
                 github: "https://github.com/tessssssssy/hidden-gems-client",
                 website: "https://hiddengems.netlify.app"
             },
             {
                 name: 'Bike Finder',
                 images: [bikeFinder1, bikeFinder2, bikeFinder3, bikeFinder4],
-                description: "A two way marketplace application for a peer to peer bike share service, developed in Ruby on Rails",
+                description: ["A two way marketplace application for a peer to peer bike share service, developed in Ruby on Rails"],
                 github: "https://github.com/tessssssssy/bikeshare-app",
                 website: "https://damp-plateau-00756.herokuapp.com"
             },
             {
                 name: 'Topics Board',
                 images: [topics1, topics2, topics3],
-                description: "A class help topic suggestion board, developed in Ruby on Rails",
+                description: ["A class help topic suggestion board, developed in Ruby on Rails"],
                 github: "https://github.com/tessssssssy/topics-board",
                 website: null
             },
             { 
                 name: 'Activity Tracker', 
                 images: [ terminal1, terminal2, terminal3 ], 
-                description: "A command line based fitness app written in Ruby. The activity tracker allows users to track exercise progress by recording activities including running, cycling, swimming, walking and hiking. Users can record the time and distance of each workout and use the app to calculate their monthly and overall totals for each exercise type.",
+                description: ["A command line based fitness app written in Ruby. The activity tracker allows users to track exercise progress by recording activities including running, cycling, swimming, walking and hiking. Users can record the time and distance of each workout and use the app to calculate their monthly and overall totals for each exercise type."],
                 github: "https://github.com/tessssssssy/terminal-app",
                 website: null
             }
@@ -55,7 +55,6 @@ class ProjectContainer extends Component {
     render() {
         return (
             <div id="#portfolio" className="ProjectContainer">
-                <h3>Portfolio</h3>
                 {this.props.projects.map(project => <Project name={project.name} images={project.images} description={project.description} github={project.github} website={project.website}/>)}
             </div>
         )
