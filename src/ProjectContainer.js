@@ -19,9 +19,19 @@ import hiddenGems1 from './assets/images/hidden_gems1.png';
 import hiddenGems2 from './assets/images/hidden_gems2.png';
 import hiddenGems3 from './assets/images/hidden_gems3.png';
 
+import algorithms1 from './assets/images/algorithms-1.png';
+import algorithms2 from './assets/images/algorithms-2.png';
+
 class ProjectContainer extends Component {
     static defaultProps = {
         projects: [
+            {
+                name: 'Algomations',
+                images: [algorithms1, algorithms2],
+                description: ["An educational tool that creates visualizations of sorting algorithms"],
+                github: "https://github.com/tessssssssy/algorithm-visualisations",
+                website: "https://www.algomations.com"
+            },
             {
                 name: 'Hidden Gems',
                 images: [hiddenGems1, hiddenGems2, hiddenGems3],
@@ -43,13 +53,13 @@ class ProjectContainer extends Component {
                 github: "https://github.com/tessssssssy/topics-board",
                 website: null
             },
-            { 
-                name: 'Activity Tracker', 
-                images: [ terminal1, terminal2, terminal3 ], 
-                description: ["A command line based fitness app written in Ruby. The activity tracker allows users to track exercise progress by recording activities including running, cycling, swimming, walking and hiking. Users can record the time and distance of each workout and use the app to calculate their monthly and overall totals for each exercise type."],
-                github: "https://github.com/tessssssssy/terminal-app",
-                website: null
-            }
+            // { 
+            //     name: 'Activity Tracker', 
+            //     images: [ terminal1, terminal2, terminal3 ], 
+            //     description: ["A command line based fitness app written in Ruby. The activity tracker allows users to track exercise progress by recording activities including running, cycling, swimming, walking and hiking. Users can record the time and distance of each workout and use the app to calculate their monthly and overall totals for each exercise type."],
+            //     github: "https://github.com/tessssssssy/terminal-app",
+            //     website: null
+            // }
         ]
     }
     render() {
